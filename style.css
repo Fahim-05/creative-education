@@ -1,3 +1,18 @@
 .slide {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  }
+
+  @media only screen and (max-width:600px){
+    
+    #see-more-btn{
+      visibility: hidden;
+    }
+    
+  }
+  @media only screen and (min-width:600px){
+    
+    #view-all-btn{
+      visibility: hidden;
+    }
+    
   }
